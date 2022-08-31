@@ -1,0 +1,95 @@
+@media (max-width: 991px) {
+	.header {
+		justify-content: space-around;
+	}
+	.promo{
+		&__wrapper {
+			align-items: center;
+		}
+	}
+	.advantages {
+		&__wrapper {
+			justify-content: space-around;
+		}
+	}
+	.consultation {
+		padding-left: 25px;
+	}
+	
+}
+@media (max-width: 767px) {
+	.button {
+		width: 122px;
+		height: 28px;
+		font-size: 10px;
+		&_main {
+			height: 31px;
+			font-size: 9px;
+		}
+	}
+	.title {
+		font-size: 25px;
+	}
+	.header {
+		&__phone {
+			font-size: 14px;
+		}
+		&__official {
+			font-size: 11px;
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+	.promo {
+		&__header {
+			font-size: 36px;
+		}
+		&__subheader {
+			font-size: 20px;
+		}
+		&__icon {
+			font-size: 13px;
+		}
+		&__link {
+			font-size: 14px;
+		}
+	}
+	.advantages {
+		&__subtitle {
+			font-size: 15px;
+		}
+		&__wrapper {
+			flex-wrap: wrap;
+			margin-top: 47px;
+		}
+		&__item {
+			max-width: none;
+			img {
+				&:nth-child(1) {
+					margin-top: 15px;
+					display: block;
+				}
+
+			}
+		}
+		&__descr {
+			padding: 0 18px;
+		}
+	}
+}
+@media (max-width: 575px) {
+	.header {
+		&__phone {
+			font-size: 12px;
+		}
+	}
+	.promo {
+		&__icons {
+			width: 100%;
+		}
+		&__wrapper {
+			padding-left: 15px;
+		}
+	}
+}
