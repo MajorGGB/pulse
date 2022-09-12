@@ -15,6 +15,14 @@
 	.consultation {
 		padding-left: 25px;
 	}
+	.carousel {
+		&__inner {
+			max-width: 550px;
+			img {
+				width: 100%;
+			}
+		}
+	}
 	
 }
 @media (max-width: 767px) {
@@ -77,6 +85,14 @@
 			padding: 0 18px;
 		}
 	}
+	.carousel {
+		&__inner {
+			max-width: 550px;
+			img {
+				width: 100%;
+			}
+		}
+	}
 }
 @media (max-width: 575px) {
 	.header {
@@ -90,6 +106,14 @@
 		}
 		&__wrapper {
 			padding-left: 15px;
+		}
+	}
+	.carousel {
+		&__inner {
+			max-width: 350px;
+			img {
+				width: 100%;
+			}
 		}
 	}
 }

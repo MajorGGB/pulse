@@ -1,0 +1,32 @@
+
+.feedback {
+    padding-bottom: 50px;
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img {
+        margin-right: 60px;
+    }
+    &__FullName {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__achievements {
+        margin-top: 3px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        width: 645px;
+    }
+    &__text {
+        margin-top: 18px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+    }
+}

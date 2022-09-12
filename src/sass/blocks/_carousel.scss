@@ -3,6 +3,7 @@
      &__inner {
         width: 750px;
         margin: 0 auto ;
+        position: relative;
      }
      .slick-prev {
         position: absolute;
@@ -28,4 +29,13 @@
             height: 50px;
         }
      }
+    // .tns-item {
+    //     img {
+    //         display: block;
+    //         margin: 0 auto;
+    //     }
+    // }
+    // .tns-visually-hidden {
+    //     display: none;
+    // }
 }
