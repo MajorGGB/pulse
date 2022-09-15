@@ -51,6 +51,8 @@ $(document).ready(function(){
 	  toggleSlide('.catalog-item__link');
 	  toggleSlide('.catalog-item__back');
 
+	 
+
 
 	//modal
 
@@ -122,9 +124,10 @@ $(document).ready(function(){
 		});
 	}
 	valideForms("#consultation-form");
-	valideForms("#consultation");
-	valideForms("#order");
-	valideForms("#thanks");
+	valideForms("#consultation form");
+	valideForms("#order form");
+	valideForms("#thanks form");
+	$('input[name=phone]').mask("+7 (999) 999-99-99");
 	
 });
 
