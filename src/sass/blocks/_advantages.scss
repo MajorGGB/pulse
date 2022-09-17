@@ -22,13 +22,25 @@
     &__descr {
         margin-top: 25px;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 14px; 
         line-height: 18px;
         text-align: center;
         color: #0D0D0D;
         a {
             text-decoration: none;
             color: #FF0000;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 5s ease infinite;
+            // animation-name: heartbeat;
+            // animation-duration: 5s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state:paused;
+            }
         }
     }
 }
