@@ -238,7 +238,7 @@
 			margin-top: 36px;
 		}
 		&__tab {
-			width: 90px;
+			width: 87px;
 			font-size: 10px;
 		}
 		&-item {
@@ -274,4 +274,17 @@
 			}
 		}
 		}
+	.modal {
+		width: 236px;
+		padding: 38px 20px 40px 20px;
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__descr {
+			font-size: 12px;
+		}
+		.feed-form {
+			width: 200px;
+		}
+	}
 }
