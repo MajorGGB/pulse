@@ -2,6 +2,7 @@
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url('../img/promo.jpg') center (center/cover) no-repeat;
+    position: relative;
     &__wrapper {
         display: flex;
         flex-direction: column;

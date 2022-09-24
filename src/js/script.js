@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	$('.carousel__inner').slick({
 		speed: 1200,
-		autoplay: true,
-		autoplaySpeed: 800,
+		autoplay: false,
+		autoplaySpeed: 900,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/previos.svg"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="icons/next.svg"></button>',
 		responsive: [
@@ -130,20 +130,20 @@ $(document).ready(function(){
 	$('input[name=phone]').mask("+7 (999) 999-99-99");
 
 	 $('form').submit(function(e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url: "mailer/smart.php",
-            data: $(this).serialize()
-        }).done(function() {
-            $(this).find("input").val("");
+		e.preventDefault();
+		$.ajax({
+			type: "POST",
+			url: "mailer/smart.php",
+			data: $(this).serialize()
+		}).done(function() {
+			$(this).find("input").val("");
 			$('#consultation, #order,').fadeOut();
 			$('.overlay, #thanks').fadeIn('slow');
-            $('form').trigger('reset');
+			$('form').trigger('reset');
 
-        });
-        return false;
-    });
+		});
+		return false;
+	});
 
 
 	//smooth scroll and pageup

@@ -1,7 +1,9 @@
 @import 'libs/_bootstrap-reboot.min.scss';
 @import 'libs/font';
 @import 'libs/slick';
-
+@import 'base/variables';
+@import 'base/animation';
+@import 'blocks/buttons';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -11,14 +13,10 @@
     position: relative;
 }
 
-@import 'base/variables';
-@import 'base/animation';
 @import 'blocks/promo';
 @import 'blocks/header';
-@import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/titles';
-@import 'blocks/media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
@@ -27,3 +25,4 @@
 @import 'blocks/footer';
 @import 'blocks/modal';
 @import 'blocks/pageup';
+@import 'blocks/media';

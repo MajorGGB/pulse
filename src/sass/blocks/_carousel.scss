@@ -29,6 +29,26 @@
             height: 50px;
         }
      }
+     .slick-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+         list-style: none;
+         margin: 0 10px;
+      }
+      button {
+         font-size: 0;
+         width: 10px;
+         height: 15px;
+         background-color: #ffff;
+         border-radius: 50%;
+      }
+      li.slick-active button {
+         background-color: transparent;
+         border: 1px solid red
+      }
+     }
     // .tns-item {
     //     img {
     //         display: block;
